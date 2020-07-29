@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        textLabel.text = "Application Version Code: " + appVersion!
+        textLabel.text = "Application Version Code Number: " + appVersion!
         
         // Do any additional setup after loading the view.
     }
