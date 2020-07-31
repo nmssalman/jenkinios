@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69EE9C8BAF47AA96931F43A4 /* Pods_digitalfractalsample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E5850A882D0622BE211F30 /* Pods_digitalfractalsample.framework */; };
+		C8584AFA24D48E7400C58BED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8584AF924D48E7400C58BED /* GoogleService-Info.plist */; };
 		C8F4368724CF76BE0099714A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F4368624CF76BE0099714A /* AppDelegate.swift */; };
 		C8F4368924CF76BE0099714A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F4368824CF76BE0099714A /* SceneDelegate.swift */; };
 		C8F4368B24CF76BE0099714A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F4368A24CF76BE0099714A /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20F2F9E94FCAAD376270276F /* Pods-digitalfractalsample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalfractalsample.debug.xcconfig"; path = "Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample.debug.xcconfig"; sourceTree = "<group>"; };
+		7019777B66A1B75EA8D46B47 /* Pods-digitalfractalsample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalfractalsample.release.xcconfig"; path = "Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample.release.xcconfig"; sourceTree = "<group>"; };
+		71E5850A882D0622BE211F30 /* Pods_digitalfractalsample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digitalfractalsample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8584AF924D48E7400C58BED /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C8F4368324CF76BE0099714A /* digitalfractalsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digitalfractalsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4368624CF76BE0099714A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8F4368824CF76BE0099714A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69EE9C8BAF47AA96931F43A4 /* Pods_digitalfractalsample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D68B17F45A59E42A3BEA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71E5850A882D0622BE211F30 /* Pods_digitalfractalsample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF6D51ECFB0C8A484B0A2D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20F2F9E94FCAAD376270276F /* Pods-digitalfractalsample.debug.xcconfig */,
+				7019777B66A1B75EA8D46B47 /* Pods-digitalfractalsample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C8F4367A24CF76BE0099714A = {
 			isa = PBXGroup;
 			children = (
 				C8F4368524CF76BE0099714A /* digitalfractalsample */,
 				C8F4368424CF76BE0099714A /* Products */,
+				BAF6D51ECFB0C8A484B0A2D7 /* Pods */,
+				80D68B17F45A59E42A3BEA29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 		C8F4368524CF76BE0099714A /* digitalfractalsample */ = {
 			isa = PBXGroup;
 			children = (
+				C8584AF924D48E7400C58BED /* GoogleService-Info.plist */,
 				C8F4368624CF76BE0099714A /* AppDelegate.swift */,
 				C8F4368824CF76BE0099714A /* SceneDelegate.swift */,
 				C8F4368A24CF76BE0099714A /* ViewController.swift */,
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8F4369724CF76BF0099714A /* Build configuration list for PBXNativeTarget "digitalfractalsample" */;
 			buildPhases = (
+				CF60405206298CA1B3217BE3 /* [CP] Check Pods Manifest.lock */,
 				C8F4367F24CF76BE0099714A /* Sources */,
 				C8F4368024CF76BE0099714A /* Frameworks */,
 				C8F4368124CF76BE0099714A /* Resources */,
+				233F84299533C7239BA6D9C8 /* [CP] Embed Pods Frameworks */,
+				C8584AFB24D48E9C00C58BED /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F4369324CF76BF0099714A /* LaunchScreen.storyboard in Resources */,
+				C8584AFA24D48E7400C58BED /* GoogleService-Info.plist in Resources */,
 				C8F4369024CF76BF0099714A /* Assets.xcassets in Resources */,
 				C8F4368E24CF76BE0099714A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233F84299533C7239BA6D9C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8584AFB24D48E9C00C58BED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		CF60405206298CA1B3217BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-digitalfractalsample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8F4367F24CF76BE0099714A /* Sources */ = {
@@ -282,10 +374,12 @@
 		};
 		C8F4369824CF76BF0099714A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F2F9E94FCAAD376270276F /* Pods-digitalfractalsample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 17;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HGDJBTZW7A;
 				INFOPLIST_FILE = digitalfractalsample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,10 +396,12 @@
 		};
 		C8F4369924CF76BF0099714A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7019777B66A1B75EA8D46B47 /* Pods-digitalfractalsample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 17;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HGDJBTZW7A;
 				INFOPLIST_FILE = digitalfractalsample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
