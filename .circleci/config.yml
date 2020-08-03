@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build-and-test:
     macos:
-      xcode: 11.3.0
+      xcode: 10.0
     steps:
       - run:
           name: Run tests
