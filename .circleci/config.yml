@@ -6,7 +6,7 @@ jobs:
     steps:
       - run:
           name: Run tests new
-          command: "echo fastlane --verion"
+          command: echo fastlane --verion
 workflows:
   test_release:
     jobs:
