@@ -1,27 +1,15 @@
 version: 2.1
 jobs:
-  test:
+  adhoc:
     macos:
-      xcode: 11.3.0
+      xcode: "11.3.1"
+    environment:
+      FL_OUTPUT_DIR: output
     steps:
       - checkout
-      - run: fastlane scan
-  deploy:
-    macos:
-      xcode: 11.3.0
-    steps:
-      - checkout
-      - deploy:
-          name: Deploy
-          command: fastlane beta
+      - run: echo "test pass"
 
 workflows:
-  test_release:
+  adhoc-build:
     jobs:
-      - test
-      - deploy:
-          requires:
-            test
-          filters:
-            branches:
-              only: release
+      - adhoc
