@@ -13,5 +13,3 @@ workflows:
   build-test-adhoc:
     jobs:
       - build-and-test
-          requires:
-            - build-and-test
