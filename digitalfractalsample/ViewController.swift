@@ -10,10 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func btnCrash(_ sender: Any) {
+        fatalError()
+    }
     @IBOutlet weak var textLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+        
         textLabel.text = "Application Version Code: " + appVersion!
         
         // Do any additional setup after loading the view.
