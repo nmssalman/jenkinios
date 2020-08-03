@@ -5,7 +5,7 @@ jobs:
       xcode: 11.3.0
     steps:
       - run:
-          name: Run tests
+          name: Run tests new
           command: fastlane beta
 
 workflows:
