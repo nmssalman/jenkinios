@@ -1,19 +1,27 @@
-# For a detailed guide to building and testing on iOS, read the docs:
-# https://circleci.com/docs/2.0/testing-ios/
-
 version: 2.1
-
 jobs:
-  fastlanebeta:
-    build:
+  test:
+    macos:
+      xcode: 11.3.0
+    steps:
+      - checkout
+      - run: fastlane scan
+  deploy:
+    macos:
+      xcode: 11.3.0
+    steps:
+      - checkout
+      - deploy:
+          name: Deploy
+          command: fastlane beta
 
-      macos:
-        xcode: 11.0.0 # Specify the Xcode version to use
-
-      steps:
-        - checkout
-        - run: fastlane beta # Run tests using Fastlane
- workflows:
-  fastlanebeta-build:
+workflows:
+  test_release:
     jobs:
-      - fastlanebeta
+      - test
+      - deploy:
+          requires:
+            test
+          filters:
+            branches:
+              only: release
