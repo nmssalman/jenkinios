@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  build-and-test:
+    macos:
+      xcode: 10.0
+    steps:
+      - run:
+          name: Run tests new
+          command: fastlane --verion
+workflows:
+  test_release:
+    jobs:
+      - build-and-test
