@@ -7,7 +7,7 @@ jobs:
       xcode: 10.0
     steps:
       - run:
-          name: Run tests new
+          name: Run tests ne
           command: fastlane beta
 workflows:
   test_release:
