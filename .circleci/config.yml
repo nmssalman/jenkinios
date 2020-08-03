@@ -9,7 +9,7 @@ jobs:
       - run:
           name: decode Certificates
           context: org-global
-          command: base64 -D -o Certificates.p12
+          command: base64 -D -o Certificates
       - run:
           name: make Provisioning Profiles directory
           command: mkdir -pv ~/Library/MobileDevice/Provisioning\ Profiles/
