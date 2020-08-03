@@ -1,19 +1,13 @@
 version: 2.1
 jobs:
-  test:
+  build-and-test:
     macos:
       xcode: 11.3.0
     steps:
-      - checkout
-      - run: fastlane scan
-
-workflows:
-  test_release:
-    jobs:
-      - test
-      - deploy:
-          requires:
-            test
-          filters:
-            branches:
-              only: circleci-project-setup
+      ...
+      - run:
+          name: Run tests
+          command: fastlane scan
+          environment:
+            SCAN_DEVICE: iPhone 6
+            SCAN_SCHEME: WebTests
