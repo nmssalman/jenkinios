@@ -4,7 +4,6 @@ jobs:
     macos:
       xcode: 11.3.0
     steps:
-      ...
       - run:
           name: Run tests
           command: fastlane beta
@@ -20,9 +19,3 @@ workflows:
               only: development
           requires:
             - build-and-test
-      #- beta:
-          #filters:
-            #branches:
-              #only: master
-          #requires:
-            #- build-and-test
