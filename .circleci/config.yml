@@ -1,4 +1,4 @@
-version: 2.1
+version: 2
 jobs:
   test:
     macos:
@@ -13,7 +13,7 @@ jobs:
       - checkout
       - deploy:
           name: Deploy
-          command: fastlane release_appstore
+          command: fastlane beta
 
 workflows:
   test_release:
