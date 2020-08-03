@@ -1,15 +1,27 @@
-version: 2
+version: 2.1
 jobs:
-  build-and-test:
+  test:
     macos:
       xcode: 11.3.0
     steps:
-      - run:
-          name: Run tests new
-          command: fastlane beta
+      - checkout
+      - run: fastlane scan
+  deploy:
+    macos:
+      xcode: 11.3.0
+    steps:
+      - checkout
+      - deploy:
+          name: Deploy
+          command: fastlane release_appstore
 
 workflows:
-  version: 2
-  build-test-adhoc:
+  test_release:
     jobs:
-      - build-and-test
+      - test
+      - deploy:
+          requires:
+            test
+          filters:
+            branches:
+              only: release
