@@ -16,6 +16,6 @@ workflows:
       - adhoc:
           filters:
             branches:
-              only: development
+              only: circleci-project-setup
           requires:
             - build-and-test
