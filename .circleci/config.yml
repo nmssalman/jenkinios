@@ -6,7 +6,7 @@ jobs:
     steps:
       - run:
           name: Run tests
-          command: "echo 'hello'"
+          command: fastlane beta
 workflows:
   test_release:
     jobs:
