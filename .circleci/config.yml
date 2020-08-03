@@ -8,7 +8,7 @@ jobs:
     steps:
       - run:
           name: Run tests new
-          command: fastlane --verion
+          command: fastlane beta
 workflows:
   test_release:
     jobs:
