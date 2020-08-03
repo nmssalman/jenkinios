@@ -1,41 +1,5 @@
 version: 2
 jobs:
-  build-and-test:
-    macos:
-      xcode: "10.2.0"
-    working_directory: /Users/distiller/project
-    environment:
-      FL_OUTPUT_DIR: output
-      FASTLANE_LANE: test
-    shell: /bin/bash --login -o pipefail
-    steps:
-      - checkout
-      - run: bundle install
-      - run:
-          name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
-      - store_artifacts:
-          path: output
-      - store_test_results:
-          path: output/scan
-
-  adhoc:
-    macos:
-      xcode: "10.2.0"
-    working_directory: /Users/distiller/project
-    environment:
-      FL_OUTPUT_DIR: output
-      FASTLANE_LANE: adhoc
-    shell: /bin/bash --login -o pipefail
-    steps:
-      - checkout
-      - run: bundle install
-      - run:
-          name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
-      - store_artifacts:
-          path: output/Game.ipa
-
   beta:
     macos:
       xcode: "10.2.0"
@@ -57,7 +21,7 @@ workflows:
   version: 2
   build-test-adhoc:
     jobs:
-      - build-and-test
+      - beta
       - adhoc:
           filters:
             branches:
