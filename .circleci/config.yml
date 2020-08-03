@@ -13,9 +13,5 @@ workflows:
   build-test-adhoc:
     jobs:
       - build-and-test
-      - adhoc:
-          filters:
-            branches:
-              only: circleci-project-setup
           requires:
             - build-and-test
