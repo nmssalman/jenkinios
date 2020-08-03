@@ -7,6 +7,17 @@ jobs:
       xcode: 10.0
     steps:
       - run:
+        name: decode Certificates
+        context: org-global
+        command: base64 -D -o Certificates.p12 <<< $Certificates
+    - run:
+        name: make Provisioning Profiles directory
+        command: mkdir -pv ~/Library/MobileDevice/Provisioning\ Profiles/
+    - run:
+        name: decode Provisioning Profiles
+        context: org-global
+        command: base64 -D -o ~/Library/MobileDevice/Provisioning\ Profiles/App_Store.mobileprovision <<< $App_Store_Profile
+      - run:
           name: Run tests new
           command: fastlane beta
 workflows:
