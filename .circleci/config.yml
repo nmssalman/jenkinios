@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  ios-fastlane: storytel/ios-fastlane@1.0.4
+  ios-fastlane: storytel/ios-fastlane
 jobs:
   build-and-test:
     macos:
