@@ -16,7 +16,7 @@ jobs:
       - run:
           name: decode Provisioning Profiles
           context: org-global
-          command: base64 -D -o ~/Library/MobileDevice/Provisioning\ Profiles/App_Store.mobileprovision <<< $App_Store_Profile
+          command: base64 -D -o ~/Library/MobileDevice/Provisioning\ Profiles/App_Store.mobileprovision
       - run:
           name: Run tests new
           command: fastlane beta
