@@ -3,18 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69EE9C8BAF47AA96931F43A4 /* Pods_digitalfractalsample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E5850A882D0622BE211F30 /* Pods_digitalfractalsample.framework */; };
-		C8584AFA24D48E7400C58BED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8584AF924D48E7400C58BED /* GoogleService-Info.plist */; };
-		C8F4368724CF76BE0099714A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F4368624CF76BE0099714A /* AppDelegate.swift */; };
-		C8F4368924CF76BE0099714A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F4368824CF76BE0099714A /* SceneDelegate.swift */; };
-		C8F4368B24CF76BE0099714A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F4368A24CF76BE0099714A /* ViewController.swift */; };
-		C8F4368E24CF76BE0099714A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F4368C24CF76BE0099714A /* Main.storyboard */; };
-		C8F4369024CF76BF0099714A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F4368F24CF76BF0099714A /* Assets.xcassets */; };
-		C8F4369324CF76BF0099714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F4369124CF76BF0099714A /* LaunchScreen.storyboard */; };
+		C8ED439624DB3CE100DAF457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED439524DB3CE100DAF457 /* AppDelegate.swift */; };
+		C8ED439824DB3CE100DAF457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED439724DB3CE100DAF457 /* SceneDelegate.swift */; };
+		C8ED439A24DB3CE100DAF457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED439924DB3CE100DAF457 /* ViewController.swift */; };
+		C8ED439D24DB3CE100DAF457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ED439B24DB3CE100DAF457 /* Main.storyboard */; };
+		C8ED439F24DB3CE300DAF457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8ED439E24DB3CE300DAF457 /* Assets.xcassets */; };
+		C8ED43A224DB3CE300DAF457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ED43A024DB3CE300DAF457 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +20,14 @@
 		7019777B66A1B75EA8D46B47 /* Pods-digitalfractalsample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalfractalsample.release.xcconfig"; path = "Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample.release.xcconfig"; sourceTree = "<group>"; };
 		71E5850A882D0622BE211F30 /* Pods_digitalfractalsample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digitalfractalsample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8584AF924D48E7400C58BED /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		C8F4368324CF76BE0099714A /* digitalfractalsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digitalfractalsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8ED439324DB3CE100DAF457 /* digitalfractalsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digitalfractalsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8ED439524DB3CE100DAF457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8ED439724DB3CE100DAF457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8ED439924DB3CE100DAF457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8ED439C24DB3CE100DAF457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8ED439E24DB3CE300DAF457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8ED43A124DB3CE300DAF457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8ED43A324DB3CE300DAF457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8F4368624CF76BE0099714A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8F4368824CF76BE0099714A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C8F4368A24CF76BE0099714A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,11 +38,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8F4368024CF76BE0099714A /* Frameworks */ = {
+		C8ED439024DB3CE100DAF457 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69EE9C8BAF47AA96931F43A4 /* Pods_digitalfractalsample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,10 +65,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C8ED439424DB3CE100DAF457 /* digitalfractalsample */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED439524DB3CE100DAF457 /* AppDelegate.swift */,
+				C8ED439724DB3CE100DAF457 /* SceneDelegate.swift */,
+				C8ED439924DB3CE100DAF457 /* ViewController.swift */,
+				C8ED439B24DB3CE100DAF457 /* Main.storyboard */,
+				C8ED439E24DB3CE300DAF457 /* Assets.xcassets */,
+				C8ED43A024DB3CE300DAF457 /* LaunchScreen.storyboard */,
+				C8ED43A324DB3CE300DAF457 /* Info.plist */,
+			);
+			path = digitalfractalsample;
+			sourceTree = "<group>";
+		};
 		C8F4367A24CF76BE0099714A = {
 			isa = PBXGroup;
 			children = (
 				C8F4368524CF76BE0099714A /* digitalfractalsample */,
+				C8ED439424DB3CE100DAF457 /* digitalfractalsample */,
 				C8F4368424CF76BE0099714A /* Products */,
 				BAF6D51ECFB0C8A484B0A2D7 /* Pods */,
 				80D68B17F45A59E42A3BEA29 /* Frameworks */,
@@ -74,7 +93,7 @@
 		C8F4368424CF76BE0099714A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8F4368324CF76BE0099714A /* digitalfractalsample.app */,
+				C8ED439324DB3CE100DAF457 /* digitalfractalsample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,15 +116,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8F4368224CF76BE0099714A /* digitalfractalsample */ = {
+		C8ED439224DB3CE100DAF457 /* digitalfractalsample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8F4369724CF76BF0099714A /* Build configuration list for PBXNativeTarget "digitalfractalsample" */;
+			buildConfigurationList = C8ED43A624DB3CE300DAF457 /* Build configuration list for PBXNativeTarget "digitalfractalsample" */;
 			buildPhases = (
-				CF60405206298CA1B3217BE3 /* [CP] Check Pods Manifest.lock */,
-				C8F4367F24CF76BE0099714A /* Sources */,
-				C8F4368024CF76BE0099714A /* Frameworks */,
-				C8F4368124CF76BE0099714A /* Resources */,
-				C8584AFB24D48E9C00C58BED /* ShellScript */,
+				C8ED438F24DB3CE100DAF457 /* Sources */,
+				C8ED439024DB3CE100DAF457 /* Frameworks */,
+				C8ED439124DB3CE100DAF457 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,7 +130,7 @@
 			);
 			name = digitalfractalsample;
 			productName = digitalfractalsample;
-			productReference = C8F4368324CF76BE0099714A /* digitalfractalsample.app */;
+			productReference = C8ED439324DB3CE100DAF457 /* digitalfractalsample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +143,7 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Mohamed Salman";
 				TargetAttributes = {
-					C8F4368224CF76BE0099714A = {
+					C8ED439224DB3CE100DAF457 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -144,83 +161,54 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8F4368224CF76BE0099714A /* digitalfractalsample */,
+				C8ED439224DB3CE100DAF457 /* digitalfractalsample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8F4368124CF76BE0099714A /* Resources */ = {
+		C8ED439124DB3CE100DAF457 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F4369324CF76BF0099714A /* LaunchScreen.storyboard in Resources */,
-				C8584AFA24D48E7400C58BED /* GoogleService-Info.plist in Resources */,
-				C8F4369024CF76BF0099714A /* Assets.xcassets in Resources */,
-				C8F4368E24CF76BE0099714A /* Main.storyboard in Resources */,
+				C8ED43A224DB3CE300DAF457 /* LaunchScreen.storyboard in Resources */,
+				C8ED439F24DB3CE300DAF457 /* Assets.xcassets in Resources */,
+				C8ED439D24DB3CE100DAF457 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C8584AFB24D48E9C00C58BED /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
-				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
-		};
-		CF60405206298CA1B3217BE3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-digitalfractalsample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C8F4367F24CF76BE0099714A /* Sources */ = {
+		C8ED438F24DB3CE100DAF457 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F4368B24CF76BE0099714A /* ViewController.swift in Sources */,
-				C8F4368724CF76BE0099714A /* AppDelegate.swift in Sources */,
-				C8F4368924CF76BE0099714A /* SceneDelegate.swift in Sources */,
+				C8ED439A24DB3CE100DAF457 /* ViewController.swift in Sources */,
+				C8ED439624DB3CE100DAF457 /* AppDelegate.swift in Sources */,
+				C8ED439824DB3CE100DAF457 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C8ED439B24DB3CE100DAF457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8ED439C24DB3CE100DAF457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8ED43A024DB3CE300DAF457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8ED43A124DB3CE300DAF457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		C8F4368C24CF76BE0099714A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -240,6 +228,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C8ED43A424DB3CE300DAF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGDJBTZW7A;
+				INFOPLIST_FILE = digitalfractalsample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfractal.digitalfractalsample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8ED43A524DB3CE300DAF457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGDJBTZW7A;
+				INFOPLIST_FILE = digitalfractalsample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfractal.digitalfractalsample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C8F4369524CF76BF0099714A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -354,67 +378,23 @@
 			};
 			name = Release;
 		};
-		C8F4369824CF76BF0099714A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20F2F9E94FCAAD376270276F /* Pods-digitalfractalsample.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 23;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HGDJBTZW7A;
-				INFOPLIST_FILE = digitalfractalsample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfractal.digitalfractalsample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		C8F4369924CF76BF0099714A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7019777B66A1B75EA8D46B47 /* Pods-digitalfractalsample.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 23;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HGDJBTZW7A;
-				INFOPLIST_FILE = digitalfractalsample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfractal.digitalfractalsample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C8ED43A624DB3CE300DAF457 /* Build configuration list for PBXNativeTarget "digitalfractalsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8ED43A424DB3CE300DAF457 /* Debug */,
+				C8ED43A524DB3CE300DAF457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C8F4367E24CF76BE0099714A /* Build configuration list for PBXProject "digitalfractalsample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8F4369524CF76BF0099714A /* Debug */,
 				C8F4369624CF76BF0099714A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8F4369724CF76BF0099714A /* Build configuration list for PBXNativeTarget "digitalfractalsample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8F4369824CF76BF0099714A /* Debug */,
-				C8F4369924CF76BF0099714A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
