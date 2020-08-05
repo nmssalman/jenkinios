@@ -105,7 +105,6 @@
 				C8F4367F24CF76BE0099714A /* Sources */,
 				C8F4368024CF76BE0099714A /* Frameworks */,
 				C8F4368124CF76BE0099714A /* Resources */,
-				233F84299533C7239BA6D9C8 /* [CP] Embed Pods Frameworks */,
 				C8584AFB24D48E9C00C58BED /* ShellScript */,
 			);
 			buildRules = (
@@ -165,23 +164,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		233F84299533C7239BA6D9C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-digitalfractalsample/Pods-digitalfractalsample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C8584AFB24D48E9C00C58BED /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

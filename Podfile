@@ -4,8 +4,6 @@
 target 'digitalfractalsample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Firebase/Crashlytics'
-  pod 'Firebase/Analytics'
   # Pods for digitalfractalsample
 
 end
