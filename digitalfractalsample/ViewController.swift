@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textLabel.text = "Application Version: " + UIDevice.current.systemVersion
         // Do any additional setup after loading the view.
     }
 
