@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8F4368224CF76BE0099714A"
+               BlueprintIdentifier = "C8ED439224DB3CE100DAF457"
                BuildableName = "digitalfractalsample.app"
                BlueprintName = "digitalfractalsample"
                ReferencedContainer = "container:digitalfractalsample.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8F4368224CF76BE0099714A"
+            BlueprintIdentifier = "C8ED439224DB3CE100DAF457"
             BuildableName = "digitalfractalsample.app"
             BlueprintName = "digitalfractalsample"
             ReferencedContainer = "container:digitalfractalsample.xcodeproj">
@@ -67,7 +67,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8F4368224CF76BE0099714A"
+            BlueprintIdentifier = "C8ED439224DB3CE100DAF457"
             BuildableName = "digitalfractalsample.app"
             BlueprintName = "digitalfractalsample"
             ReferencedContainer = "container:digitalfractalsample.xcodeproj">
